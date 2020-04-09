@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B4D08CDF-65C6-411B-AB92-3C2527201DCE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Ecosiana</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cookie.h" />
+    <ClInclude Include="EcosiaHtmlParser.h" />
+    <ClInclude Include="EcosiaHttpRequester.h" />
+    <ClInclude Include="EcosiaResult.h" />
+    <ClInclude Include="EcosiaSearcher.h" />
+    <ClInclude Include="EcosiaVideoHtmlParser.h" />
+    <ClInclude Include="EcosiaVideoResult.h" />
+    <ClInclude Include="EcosiaVideoSearcher.h" />
+    <ClInclude Include="EcosiaWebHtmlParser.h" />
+    <ClInclude Include="EcosiaWebResult.h" />
+    <ClInclude Include="EcosiaWebSearcher.h" />
+    <ClInclude Include="ecosia_parameters.h" />
+    <ClInclude Include="ecosia_video_parameters.h" />
+    <ClInclude Include="ecosia_web_parameters.h" />
+    <ClInclude Include="gumbo\attribute.h" />
+    <ClInclude Include="gumbo\char_ref.h" />
+    <ClInclude Include="gumbo\error.h" />
+    <ClInclude Include="gumbo\gumbo.h" />
+    <ClInclude Include="gumbo\insertion_mode.h" />
+    <ClInclude Include="gumbo\parser.h" />
+    <ClInclude Include="gumbo\strings.h" />
+    <ClInclude Include="gumbo\string_buffer.h" />
+    <ClInclude Include="gumbo\string_piece.h" />
+    <ClInclude Include="gumbo\tag_enum.h" />
+    <ClInclude Include="gumbo\tag_gperf.h" />
+    <ClInclude Include="gumbo\tag_sizes.h" />
+    <ClInclude Include="gumbo\tag_strings.h" />
+    <ClInclude Include="gumbo\tokenizer.h" />
+    <ClInclude Include="gumbo\tokenizer_states.h" />
+    <ClInclude Include="gumbo\token_type.h" />
+    <ClInclude Include="gumbo\utf8.h" />
+    <ClInclude Include="gumbo\util.h" />
+    <ClInclude Include="gumbo\vector.h" />
+    <ClInclude Include="HttpRequester.h" />
+    <ClInclude Include="Session.h" />
+    <ClInclude Include="StringHelper.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cookie.cpp" />
+    <ClCompile Include="EcosiaHtmlParser.cpp" />
+    <ClCompile Include="EcosiaHttpRequester.cpp" />
+    <ClCompile Include="EcosiaResult.cpp" />
+    <ClCompile Include="EcosiaSearcher.cpp" />
+    <ClCompile Include="EcosiaVideoHtmlParser.cpp" />
+    <ClCompile Include="EcosiaVideoResult.cpp" />
+    <ClCompile Include="EcosiaVideoSearcher.cpp" />
+    <ClCompile Include="EcosiaWebHtmlParser.cpp" />
+    <ClCompile Include="EcosiaWebResult.cpp" />
+    <ClCompile Include="EcosiaWebSearcher.cpp" />
+    <ClCompile Include="ecosia_parameters.cpp" />
+    <ClCompile Include="ecosia_video_parameters.cpp" />
+    <ClCompile Include="ecosia_web_parameters.cpp" />
+    <ClCompile Include="gumbo\attribute.c" />
+    <ClCompile Include="gumbo\char_ref.c" />
+    <ClCompile Include="gumbo\error.c" />
+    <ClCompile Include="gumbo\parser.c" />
+    <ClCompile Include="gumbo\string_buffer.c" />
+    <ClCompile Include="gumbo\string_piece.c" />
+    <ClCompile Include="gumbo\tag.c" />
+    <ClCompile Include="gumbo\tokenizer.c" />
+    <ClCompile Include="gumbo\utf8.c" />
+    <ClCompile Include="gumbo\util.c" />
+    <ClCompile Include="gumbo\vector.c" />
+    <ClCompile Include="HttpRequester.cpp" />
+    <ClCompile Include="Session.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

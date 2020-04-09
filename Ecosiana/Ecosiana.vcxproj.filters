@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Results">
+      <UniqueIdentifier>{1441fb5a-b840-4315-8477-0d381d56ad2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Results">
+      <UniqueIdentifier>{e571eddf-aa55-4c08-b628-ed375de2d402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{7a9156d6-4a8f-469b-bab5-7b0f59433e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parser">
+      <UniqueIdentifier>{789f9b70-060a-4779-99da-5a152e8a8ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{e3284fef-fa90-4306-83fe-f8338c292d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Requester">
+      <UniqueIdentifier>{9b25a5e0-7edc-4eaa-97d9-d4dfe7692178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Requester">
+      <UniqueIdentifier>{138ab8e8-829c-416f-9783-02c339e2c1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gumbo">
+      <UniqueIdentifier>{d615360d-b58c-4ce5-9bfa-36291857ff98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gumbo">
+      <UniqueIdentifier>{c0f433e8-02fd-4689-889b-b95e6456c831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parameters">
+      <UniqueIdentifier>{b21e2cb7-dd88-4634-a39f-e4cfcf173b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parameters">
+      <UniqueIdentifier>{2c553fc6-d278-4cd1-9a45-e323c9e6a9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cookie">
+      <UniqueIdentifier>{d23208b1-51eb-4043-9e58-c63bbcfc1a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cookie">
+      <UniqueIdentifier>{d76dde40-68e0-4bf2-aa3f-2f9e00dd10f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Session">
+      <UniqueIdentifier>{0cdaa5c5-8ce2-493e-b7da-d979337093df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Session">
+      <UniqueIdentifier>{8922383b-4ae6-4007-b832-f1947ba2a2bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EcosiaWebSearcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EcosiaSearcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EcosiaWebResult.h">
+      <Filter>Header Files\Results</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="EcosiaWebHtmlParser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="EcosiaHtmlParser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequester.h">
+      <Filter>Header Files\Requester</Filter>
+    </ClInclude>
+    <ClInclude Include="EcosiaHttpRequester.h">
+      <Filter>Header Files\Requester</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\attribute.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\char_ref.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\error.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\gumbo.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\insertion_mode.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\parser.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\string_buffer.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\string_piece.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\strings.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\tag_enum.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\tag_gperf.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\tag_sizes.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\tag_strings.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\token_type.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\tokenizer.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\tokenizer_states.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\utf8.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\util.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="gumbo\vector.h">
+      <Filter>Header Files\gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="EcosiaResult.h">
+      <Filter>Header Files\Results</Filter>
+    </ClInclude>
+    <ClInclude Include="ecosia_web_parameters.h">
+      <Filter>Header Files\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="ecosia_parameters.h">
+      <Filter>Header Files\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="EcosiaVideoHtmlParser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="EcosiaVideoResult.h">
+      <Filter>Header Files\Results</Filter>
+    </ClInclude>
+    <ClInclude Include="EcosiaVideoSearcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ecosia_video_parameters.h">
+      <Filter>Header Files\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="Cookie.h">
+      <Filter>Header Files\Cookie</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Header Files\Session</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EcosiaWebSearcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EcosiaSearcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EcosiaWebResult.cpp">
+      <Filter>Source Files\Results</Filter>
+    </ClCompile>
+    <ClCompile Include="EcosiaHtmlParser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="EcosiaWebHtmlParser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="EcosiaHttpRequester.cpp">
+      <Filter>Source Files\Requester</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequester.cpp">
+      <Filter>Source Files\Requester</Filter>
+    </ClCompile>
+    <ClCompile Include="gumbo\vector.c">
+      <Filter>Source Files\gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="gumbo\attribute.c">
+      <Filter>Source Files\gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="gumbo\char_ref.c">
+      <Filter>Source Files\gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="gumbo\error.c">
+      <Filter>Source Files\gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="gumbo\parser.c">
+      <Filter>Source Files\gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="gumbo\string_buffer.c">
+      <Filter>Source Files\gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="gumbo\string_piece.c">
+      <Filter>Source Files\gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="gumbo\tag.c">
+      <Filter>Source Files\gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="gumbo\tokenizer.c">
+      <Filter>Source Files\gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="gumbo\utf8.c">
+      <Filter>Source Files\gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="gumbo\util.c">
+      <Filter>Source Files\gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="EcosiaResult.cpp">
+      <Filter>Source Files\Results</Filter>
+    </ClCompile>
+    <ClCompile Include="ecosia_parameters.cpp">
+      <Filter>Source Files\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="ecosia_web_parameters.cpp">
+      <Filter>Source Files\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="EcosiaVideoSearcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EcosiaVideoHtmlParser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="EcosiaVideoResult.cpp">
+      <Filter>Source Files\Results</Filter>
+    </ClCompile>
+    <ClCompile Include="ecosia_video_parameters.cpp">
+      <Filter>Source Files\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="Cookie.cpp">
+      <Filter>Source Files\Cookie</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Source Files\Session</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
